@@ -66,3 +66,7 @@ Todos os endpoints utilizam o prefixo base: api/Plataforma
 - Preço: Obrigatório e deve ser um valor positivo.
 
 - ID: Não deve ser enviado no POST (gerado automaticamente).
+
+
+# 🛡️ Tratamento de Erros
+A API possui blocos **try-catch** em seus métodos principais para garantir que falhas internas não exponham dados sensíveis e retornem mensagens amigáveis ao usuário via Status Code 500.
