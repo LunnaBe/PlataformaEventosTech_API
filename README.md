@@ -44,28 +44,28 @@ Todos os endpoints utilizam o prefixo base: api/Plataforma
 |DELETE |	/api/Plataforma/{id} | Remove um evento do banco de dados. |
 
 ### Respostas Comuns
-- 200 OK: Sucesso na operação.
+- **200 OK:** Sucesso na operação.
 
-- 201 Created: Recurso criado com sucesso (retornado no POST).
+- **201 Created:** Recurso criado com sucesso (retornado no POST).
 
-- 400 Bad Request: Dados inválidos ou erro de validação.
+- **400 Bad Request:** Dados inválidos ou erro de validação.
 
-- 404 Not Found: Evento não localizado.
+- **404 Not Found:** Evento não localizado.
 
-- 500 Internal Server Error: Erro inesperado no servidor.
+- **500 Internal Server Error:** Erro inesperado no servidor.
 
 ### Regras de Negócio para Cadastro (POST)
-- Nome: Obrigatório, máximo de 100 caracteres.
+- **Nome:** Obrigatório, máximo de 100 caracteres.
 
-- Conteúdo: Obrigatório, máximo de 500 caracteres.
+- **Conteúdo:** Obrigatório, máximo de 500 caracteres.
 
-- Data_Hora: Obrigatório, deve ser uma data futura.
+- **Data_Hora:** Obrigatório, deve ser uma data futura.
 
-- Localização: Obrigatório, máximo de 200 caracteres.
+- **Localização:** Obrigatório, máximo de 200 caracteres.
 
-- Preço: Obrigatório e deve ser um valor positivo.
+- **Preço:** Obrigatório e deve ser um valor positivo.
 
-- ID: Não deve ser enviado no POST (gerado automaticamente).
+- **ID:** Não deve ser enviado no POST (gerado automaticamente).
 
 
 # 🛡️ Tratamento de Erros
