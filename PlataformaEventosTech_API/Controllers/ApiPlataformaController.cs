@@ -65,15 +65,15 @@ namespace PlataformaEventosTech_API.Controllers
         /// 
         /// <remarks>
         /// Exemplo de resposta de sucesso:
-        /// {
-        ///     "id": 0,
-        ///     "nome": "IAM TECH DAY",
-        ///     "conteudo": "O IAM Tech Day está de volta em SP trazendo em 2 dias o melhor conteúdo de IAM por especialistas 
-        ///     e profissionais do mercado.",
-        ///     "data_hora": "2024-06-01 18:00:00",
-        ///     "localizacao": "São Paulo",
-        ///     "preco": 100.0
-        /// }
+        /// 
+        ///     {
+        ///         "id": 0,
+        ///         "nome": "IAM TECH DAY",
+        ///         "conteudo": "O IAM Tech Day está de volta em SP trazendo em 2 dias o melhor conteúdo de IAM por especialistas e profissionais do mercado.",
+        ///         "data_hora": "2024-06-01 18:00:00",
+        ///         "localizacao": "São Paulo",
+        ///         "preco": 100.0
+        ///     }
         /// 
         /// Obervação: O endpoint deve retornar o evento correspondente ao ID fornecido, 
         /// ou um status de erro apropriado se o evento não for encontrado ou se a requisição for inválida.
